@@ -29,7 +29,10 @@ const Pricing = () => {
         </div>
 
     
-        <div className="bg-gradient-to-b from-purple-700 to-pink-500 text-white p-6 rounded-xl shadow-lg scale-105">
+        <div className="bg-gradient-to-b from-purple-700 to-pink-500 text-white p-6 rounded-xl shadow-lg scale-105 relative">
+          <div className="flex justify-center">
+            <h3 className="bg-[#FEF3C6] text-[#BB4D00] font-medium text-[14px] w-[111px] py-[6px] px[12px] text-center -mt-10 absolute rounded-lg">Most Popular</h3>
+          </div>
           <h3 className="font-semibold">Pro</h3>
           <h1 className="text-3xl font-bold mt-3">$29<span className="text-sm">/month</span></h1>
 

@@ -1,10 +1,12 @@
+import bannering from "../assets/banner.png";
+import group from "../assets/Group 5.png"
 const Banner = () => {
   return (
     <>
       <div className="grid md:grid-cols-2 items-center mx-auto max-w-[1200px] px-10 py-16">
         <div>
           <div className="flex gap-2 py-2 px-4 mb-3 bg-[#E1E7FF] rounded-lg w-[300px]">
-            <img width="16px" src="./src/assets/Group 5.png" alt="" />
+            <img width="16px" src={group} alt="" />
           <h5 className="font-medium text-[#4F39F6]">New: AI-Powered Tools Available</h5>
           </div>
           <h1 className="text-4xl font-bold">
@@ -27,7 +29,7 @@ const Banner = () => {
 
         </div>
 
-        <img src="./src/assets/banner.png" />
+        <img src={bannering} />
       </div>
 
       <div className="bg-gradient-to-r from-purple-700 to-pink-500 text-white py-8 grid grid-cols-3 text-center ">

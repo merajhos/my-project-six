@@ -1,3 +1,6 @@
+import user from "../assets/user.png";
+import pakage from "../assets/package.png";
+import roket from "../assets/rocket.png";
 const Steps = () => {
   return (
     <div className="py-16 bg-[#F9FAFC]">
@@ -10,7 +13,7 @@ const Steps = () => {
 
         <div className="bg-[#FFFFFF] p-6 text-center rounded-lg">
           <h3 className=" py-1 text-white px-2 border bg-[#4F39F6] w-[30px] rounded-full">01</h3>
-          <div className="text-3xl mb-3 flex justify-center"><img src="/src/assets/user.png" alt="" /></div>
+          <div className="text-3xl mb-3 flex justify-center"><img src={user} alt="" /></div>
           <h3 className="font-semibold">Create Account</h3>
           <p className="text-sm text-gray-500 mt-2">
             Sign up in minutes with email and start exploring
@@ -19,7 +22,7 @@ const Steps = () => {
 
         <div className="bg-[#FFFFFF] p-6 text-center rounded-lg">
           <h3 className=" py-1 text-white px-2 border bg-[#4F39F6] w-[30px] rounded-full">02</h3>
-          <div className="text-3xl mb-3 flex justify-center"><img src="/src/assets/package.png" alt="" /></div>
+          <div className="text-3xl mb-3 flex justify-center"><img src={pakage} alt="" /></div>
           <h3 className="font-semibold">Choose Products</h3>
           <p className="text-sm text-gray-500 mt-2">
             Browse our catalog and select the tools that fit your needs
@@ -28,7 +31,7 @@ const Steps = () => {
 
         <div className="bg-[#FFFFFF] p-6 text-center rounded-lg">
           <h3 className=" py-1 text-white px-2 border bg-[#4F39F6] w-[30px] rounded-full">03</h3>
-          <div className="text-3xl mb-3 flex justify-center"><img src="/src/assets/rocket.png" alt="" /></div>
+          <div className="text-3xl mb-3 flex justify-center"><img src={roket} alt="" /></div>
           <h3 className="font-semibold">Start Creating</h3>
           <p className="text-sm text-gray-500 mt-2">
             Download instantly and boost your productivity
