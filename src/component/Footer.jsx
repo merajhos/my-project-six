@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-gray-900 text-gray-300 py-16">
       <div className="max-w-6xl mx-auto grid md:grid-cols-4 gap-8 px-6">
 
-        {/* Brand */}
+        
         <div>
           <h2 className="text-white text-xl font-bold">DigiTools</h2>
           <p className="mt-3 text-sm">
@@ -13,7 +13,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Product */}
         <div>
           <h3 className="text-white font-semibold mb-3">Product</h3>
           <ul className="space-y-2 text-sm">
@@ -24,7 +23,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Company */}
+      
         <div>
           <h3 className="text-white font-semibold mb-3">Company</h3>
           <ul className="space-y-2 text-sm">
@@ -35,7 +34,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Social */}
+      
         <div>
           <h3 className="text-white font-semibold mb-3 flex justify-center">Social Links</h3>
           <div className=" justify-center flex gap-4 text-xl">

@@ -11,7 +11,7 @@ const Pricing = () => {
 
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 px-6">
 
-        {/* Starter */}
+        
         <div className="bg-white p-6 rounded-xl shadow">
           <h3 className="font-semibold">Starter</h3>
           <h1 className="text-3xl font-bold mt-3">$0<span className="text-sm">/month</span></h1>
@@ -28,7 +28,7 @@ const Pricing = () => {
           </button>
         </div>
 
-        {/* Pro (Highlighted) */}
+    
         <div className="bg-gradient-to-b from-purple-700 to-pink-500 text-white p-6 rounded-xl shadow-lg scale-105">
           <h3 className="font-semibold">Pro</h3>
           <h1 className="text-3xl font-bold mt-3">$29<span className="text-sm">/month</span></h1>
@@ -46,7 +46,7 @@ const Pricing = () => {
           </button>
         </div>
 
-        {/* Enterprise */}
+        
         <div className="bg-white p-6 rounded-xl shadow">
           <h3 className="font-semibold">Enterprise</h3>
           

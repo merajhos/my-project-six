@@ -9,13 +9,13 @@ const ProductsSection = ({ products, addToCart, cart, remove, checkout }) => {
     <div className="bg-gray-100 py-20">
       <div className="max-w-6xl mx-auto text-center">
 
-        {/* Title */}
+        
         <h2 className="text-3xl font-bold">Premium Digital Tools</h2>
         <p className="text-gray-500 mt-2">
           Choose from our curated collection of premium digital products designed to boost your productivity and creativity.
         </p>
 
-        {/* Toggle Buttons */}
+        
         <div className="mt-6 flex justify-center">
           <div className="bg-gray-200 rounded-full p-1 flex gap-1">
             
@@ -44,10 +44,10 @@ const ProductsSection = ({ products, addToCart, cart, remove, checkout }) => {
           </div>
         </div>
 
-        {/* CONTENT SWITCH */}
+        
         <div className="mt-10">
 
-          {/* Products */}
+          
           {activeTab === "products" && (
             <div className="grid md:grid-cols-3 gap-6">
               {products.map((p) => (
@@ -60,7 +60,7 @@ const ProductsSection = ({ products, addToCart, cart, remove, checkout }) => {
             </div>
           )}
 
-          {/* Cart */}
+          
           {activeTab === "cart" && (
             <Cart
               cart={cart}
