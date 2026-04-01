@@ -3,6 +3,10 @@ const Banner = () => {
     <>
       <div className="grid md:grid-cols-2 items-center mx-auto max-w-[1200px] px-10 py-16">
         <div>
+          <div className="flex gap-2 py-2 px-4 mb-3 bg-[#E1E7FF] rounded-lg w-[300px]">
+            <img width="16px" src="/src/assets/Group 5.png" alt="" />
+          <h5 className="font-medium text-[#4F39F6]">New: AI-Powered Tools Available</h5>
+          </div>
           <h1 className="text-4xl font-bold">
             Supercharge Your <br /> Digital Workflow
           </h1>
@@ -20,7 +24,7 @@ const Banner = () => {
               Watch Demo
             </button>
           </div>
-          
+
         </div>
 
         <img src="/src/assets/banner.png" />
