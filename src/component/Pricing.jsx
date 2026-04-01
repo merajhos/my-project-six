@@ -49,7 +49,6 @@ const Pricing = () => {
           </button>
         </div>
 
-        
         <div className="bg-white p-6 rounded-xl shadow">
           <h3 className="font-semibold">Enterprise</h3>
           
