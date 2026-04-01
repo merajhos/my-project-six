@@ -25,8 +25,7 @@ const ProductCard = ({ p, addToCart }) => {
 
       <button
         onClick={() => addToCart(p)}
-        className="w-full mt-4 bg-gradient-to-r from-purple-600 to-pink-500 text-white py-2 rounded-full"
-      >
+        className="w-full mt-4 bg-gradient-to-r from-purple-600 to-pink-500 text-white py-2 rounded-full" >
         Buy Now
       </button>
     </div>
