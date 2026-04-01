@@ -49,6 +49,7 @@ const Pricing = () => {
         {/* Enterprise */}
         <div className="bg-white p-6 rounded-xl shadow">
           <h3 className="font-semibold">Enterprise</h3>
+          
           <h1 className="text-3xl font-bold mt-3">$99<span className="text-sm">/month</span></h1>
 
           <ul className="mt-4 text-sm text-gray-600 space-y-2">

@@ -20,6 +20,7 @@ const Banner = () => {
               Watch Demo
             </button>
           </div>
+          
         </div>
 
         <img src="/src/assets/banner.png" />
