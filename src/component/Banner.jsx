@@ -9,9 +9,7 @@ const Banner = () => {
           <p className="text-gray-500 text-left mt-4">
             Access premium AI tools, design assets, templates, and productivity
             software—all in one place. Start creating faster today.
-
             Explore Products
-
           </p>
 
           <div className="mt-5 flex gap-3">
@@ -37,6 +35,7 @@ const Banner = () => {
           <h2 className="text-xl font-bold">200+</h2>
           <p>Tools</p>
         </div>
+
         <div>
           <h2 className="text-xl font-bold">4.9</h2>
           <p>Rating</p>

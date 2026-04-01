@@ -1,10 +1,10 @@
 import { FaCheckCircle } from "react-icons/fa";
 const ProductCard = ({ p, addToCart }) => {
   return (
-    <div className="bg-white p-6 rounded-xl shadow">
+    <div className="bg-[#F9FAFC] p-6 rounded-xl shadow">
 
       <div className="flex justify-between">
-        <img src={p.icon} className="w-10 h-10 bg-gray-100 p-2 rounded-full" />
+        <img src={p.icon} className="w-10 h-10 bg-[#FFFFFF] p-2 rounded-full" />
         <span className="text-xs bg-purple-100 px-2 p-1 rounded">
           {p.tagType}
         </span>
